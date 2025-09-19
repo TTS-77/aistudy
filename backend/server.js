@@ -88,7 +88,6 @@ app.get("/api/summary/:filename", async (req, res) => {
 
     // Format summary with spacing and bullets
     const formattedSummary =
-      "📘 AI Generated Summary\n\n" +
       selected.map((s, i) => `   • ${s.trim()}`).join("\n\n") +
       "\n\n✨ (This is an auto-generated summary preview)";
 

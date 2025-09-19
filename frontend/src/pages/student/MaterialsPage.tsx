@@ -4,7 +4,6 @@ import axios from "axios";
 
 interface Topic {
   id: number;
-  title: string;
   aiContent: string;
 }
 
@@ -20,11 +19,12 @@ const MaterialsPage = () => {
 
         const topicsWithAI = await Promise.all(
           files.map(async (file, idx) => {
-            const aiRes = await axios.get(`http://localhost:5000/api/summary/${file}`);
+            const aiRes = await axios.get(
+              `http://localhost:5000/api/summary/${file}`
+            );
             return {
               id: idx + 1,
-              title: file, // still fetched, but we won’t display it
-              aiContent: aiRes.data.aiContent
+              aiContent: aiRes.data.aiContent,
             };
           })
         );
@@ -55,7 +55,10 @@ const MaterialsPage = () => {
               key={topic.id}
               className="bg-white/20 p-4 rounded-lg mb-4 text-left"
             >
-              {/* Removed the file name header */}
+              {/* Custom heading */}
+              <h2 className="font-semibold text-lg mb-2 text-blue-200">
+                📘 AI Generated Summary
+              </h2>
 
               {/* AI Content Box */}
               <pre className="bg-white/10 p-3 rounded text-white/90 whitespace-pre-wrap text-sm leading-relaxed">
