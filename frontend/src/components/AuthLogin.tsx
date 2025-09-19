@@ -104,12 +104,11 @@ const handleTeacherSubmit = async (e: React.FormEvent) => {
             </div>
             
             <div className="space-y-6">
-              <h2 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
-                Your Personal AI
+              <h2 className="text-5xl lg:text-6xl font-bold text-white leading-tight">Your Personal
                 <span className="bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent block">
                   Learning
                 </span>
-                <span className="text-white/90">Study Partner</span>
+                <span className="text-white/90">AI Study Partner</span>
               </h2>
               
               <p className="text-xl text-white/80 leading-relaxed max-w-md">
