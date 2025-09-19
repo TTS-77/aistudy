@@ -100,7 +100,7 @@ const handleTeacherSubmit = async (e: React.FormEvent) => {
               <div className="bg-white/20 backdrop-blur-sm p-3 rounded-full">
                 <GraduationCap className="h-8 w-8 text-white" />
               </div>
-              <h1 className="text-4xl font-bold text-white">Cognipath</h1>
+              <h1 className="text-4xl font-bold text-white">COGNIPATH</h1>
             </div>
             
             <div className="space-y-6">
