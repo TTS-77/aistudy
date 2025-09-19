@@ -105,15 +105,15 @@ const handleTeacherSubmit = async (e: React.FormEvent) => {
             
             <div className="space-y-6">
               <h2 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
-                AI-Powered
+                Your Personal AI
                 <span className="bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent block">
                   Learning
                 </span>
-                <span className="text-white/90">Platform</span>
+                <span className="text-white/90">Study Partner</span>
               </h2>
               
               <p className="text-xl text-white/80 leading-relaxed max-w-md">
-                Teachers upload materials, students learn with AI assistance. Smart summaries, explanations, and progress tracking.
+               Transform your teacher's notes into powerful learning tools. Get instant summaries, clear explanations, and practice quizzes to master any subject.
               </p>
             </div>
 
@@ -122,26 +122,27 @@ const handleTeacherSubmit = async (e: React.FormEvent) => {
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
                 <div className="flex items-center gap-3 mb-4">
                   <BookOpen className="h-6 w-6 text-white" />
-                  <h3 className="text-white font-semibold">For Students</h3>
+                  <h3 className="text-white font-semibold">Your Smart Study Kit
+</h3>
                 </div>
                 <ul className="text-white/80 text-sm space-y-2">
-                  <li>• AI-powered summaries</li>
-                  <li>• Concept explanations</li>
-                  <li>• Practice quizzes</li>
-                  <li>• Progress tracking</li>
+                  <li>• Master Key Concepts Instantly</li>
+                  <li>• Understand the Toughest Topics</li>
+                  <li>• Practice for Perfection</li>
+                  <li>• Visualize Your Progress</li>
                 </ul>
               </div>
               
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
                 <div className="flex items-center gap-3 mb-4">
                   <Users className="h-6 w-6 text-white" />
-                  <h3 className="text-white font-semibold">For Teachers</h3>
+                  <h3 className="text-white font-semibold">Your AI Teaching Assistant</h3>
                 </div>
                 <ul className="text-white/80 text-sm space-y-2">
-                  <li>• Upload study materials</li>
-                  <li>• Organize by subjects</li>
-                  <li>• Monitor student progress</li>
-                  <li>• Track engagement</li>
+                  <li>• Upload Materials in Seconds</li>
+                  <li>• Organize Your Curriculum Seamlessly</li>
+                  <li>• Pinpoint Student Learning Gaps</li>
+                  <li>• Monitor Class Engagement</li>
                 </ul>
               </div>
             </div>
